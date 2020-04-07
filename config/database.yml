@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  host: 127.0.0.1
+  database: la_basilica_dev
+  pool: 5
+  username: postgres
+  password: 1234
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  host: 127.0.0.1
+  database: la_basilica_test
+  pool: 5
+  username: postgres
+  password: 1234  
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  host: 127.0.0.1
+  database: la_basilica_prod
+  pool: 5
+  username: postgres
+  password: 1234    
